@@ -1,0 +1,13 @@
+.catalog {
+    height: 3.5em;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    
+}
+.catalog_button {
+    margin-bottom: 10px;
+    border: none;
+    background-color: whitesmoke;
+   
+}

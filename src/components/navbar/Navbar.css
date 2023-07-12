@@ -1,0 +1,69 @@
+.navbar {
+background-color: whitesmoke;
+display: grid;
+grid-template-columns: auto 40% auto;
+}
+.navbar_img {
+    margin-left: 2em;
+}
+.navbar_search {
+    background-color: gold;
+    height: 3em;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.white_bacground {
+    background-color: white;
+    width: 90%;
+    display: flex;
+   align-items:center ;
+   justify-content: space-between;
+   margin-left: 0.1em;
+   border-radius: 0.5em;
+}
+#search {
+    width: 50%;
+    height: 2.8em;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+}
+.microphone {
+    font-size: 1.7em;
+    color: gray;
+    margin-right: 0.2em;
+}
+.searcher {
+    font-size: 1.7em;
+   margin-right: 0.5em;
+}
+.navbar_select {
+    margin-left: 0.2em;
+    height: 2.5em;
+    padding: 0.1em;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+}
+.navbar_icons {
+    font-size: 1.4em;
+}
+.navbar_button {
+    margin: 0.5em;
+    border: none;
+    background-color: whitesmoke;
+}
+.nbr{
+    margin-right: 2em;
+}
+.z_index {
+    z-index: 2;
+}
+.navbar_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

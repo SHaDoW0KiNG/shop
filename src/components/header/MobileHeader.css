@@ -1,0 +1,32 @@
+.mobile_header{
+    height: 2.5em;
+    background-color: whitesmoke;
+    display: none;
+}
+.mobile_location{
+    
+    font-size: 1.4em;
+    margin-left: 3em;
+}
+.mobile_header_select{
+    background-color: whitesmoke;   
+    border: none;
+    box-sizing: border-box;
+    width: 5.5em;
+    margin-top: 0.2em;
+}
+.mobile_header_img {
+    margin-left: 23em;
+}
+.phone{
+    margin-left: 23em;
+}
+.mobile_header_button_contact {
+border: none;
+background-color: whitesmoke;
+}
+@media (max-width: 720px) {
+    .mobile_header {
+        display: block;
+    }
+}

@@ -1,0 +1,54 @@
+.header{
+    height: 2.2em;
+    background-color: black;
+}
+.header_select{
+    background-color: black;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    width: 5.5em;
+    margin-top: 0.2em;
+}
+.location{
+    color: white;
+    font-size: 1.4em;
+    margin-left: 1.5em;
+}
+.header_button {
+    background-color: black;
+    border: none;
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.hbg{
+    background-color: rgb(58, 57, 57);
+    border-radius: 5px;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+.header_button_contact{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 10em;
+}
+.header_select_right{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-left: 1.3em;
+    padding-bottom: 0.3em;
+}
+.world{
+    position: relative;
+    left: 1.15em;
+    font-size: 1.2em;
+    color: white;
+}
+@media (max-width: 720px) {
+    .header {
+        display: none;
+    }
+}
